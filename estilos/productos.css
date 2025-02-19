@@ -1,0 +1,195 @@
+body{
+	margin:0;
+	font-family:monospace;
+	background-image:url("../img/CAFE.jpg");
+	background-image:no-repeat;
+}
+
+
+
+nav{
+	overflow:hidden;
+	width:40%;
+    background-color:#e61405;
+	z-index:190;
+	position: relative;
+	padding-bottom:12px;
+	float:left;
+
+}
+
+.nav2{
+	overflow:hidden;
+	width:40%;
+    background-color:#e61405;
+	z-index:190;
+	position: relative;
+	padding-bottom:12px;	
+	float:right;
+	
+}
+
+
+
+
+a:link,a:visited{
+	display:block;
+	width:30%;
+	float:left;
+	padding-top:7px;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	opacity:100;
+	border:2px;
+	font-size:20px;
+	text-shadow:2px 2px 3px black;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+		
+}
+
+
+
+
+
+a:hover{
+	color:#000000;
+}
+
+#Logo{
+	
+	width:20%;
+	height:20%;
+	float:left;
+	z-index:190;
+	position:relative;
+	margin-bottom:3%;
+
+}
+main{
+	width:100%;
+	overflow:hidden;
+	position: relative;
+}
+
+aside{
+	margin:auto;
+	width: 80%;
+	overflow: hidden;
+	margin-top: 2%;
+	margin-bottom:2%;
+	background-color:rgba(153, 246, 247,0.9);
+	border-radius:15px;
+}
+
+.paside{
+	margin:auto;
+	margin-top:2%;
+	width:90%;
+	text-align:center;
+	color:black;
+	border:1%;
+	font-size:27px;
+	line-height:27px;
+	font-family:sans-serif;
+	border-radius:15px;
+	padding-bottom:2%;
+	
+	
+}
+.variedad{
+	border-bottom:solid;
+	
+	color:black;
+	border-bottom-width:100%;
+	font-size:27px;
+	
+}
+
+section{
+	margin:auto;
+	width:80%;
+	overflow: hidden;
+	margin-top: 20px;
+	border-radius: 15px;
+	margin-bottom:3%;
+	margin-top:5%;
+	
+	
+}
+
+
+
+footer{
+    background-color:#e61405;
+	width:100%;
+	overflow:hidden;
+	color:white;
+	z-index:190;
+	position: relative;
+}
+p{
+	margin-top:10px;
+	margin-right:5px;
+	margin-left:5px;
+	color:white;
+	opacity:100;
+	border:2px;
+	font-size:17px;
+	overflow:hidden;
+	text-align:center;
+	font-family:sans-serif;
+
+}
+
+/* por debajo de 800 px de ancho de pantalla: */
+
+@media screen and (max-width:800px)
+{
+  body{
+            background-image:url("../img/CAFE.jpg");
+			
+	     }
+  
+  section, aside{
+                           margin:auto;
+						   width:100%;
+						   border-radius:0px;
+	 	         }
+				 section{
+					 background-color:rgba(255, 255, 255,0.9);
+				 }
+  
+  /* a los parrafos les cambio el tamaño del texto */
+ p
+     {
+        font-size:20px;
+	 }
+
+  /*tmb a los h1 y h2*/
+  h2
+    {
+     font-size:27px;
+    }
+  
+
+  
+ /* hago el menú más chico y vertical*/  
+ a:link
+   {
+     
+	 font-size:20px;
+     width:33.3%;
+
+  }
+  .nav2, nav{
+	  width:100%;
+	  margin:auto;
+  }
+  #Logo{
+	  margin:auto;
+	  float:none;
+  }
+}

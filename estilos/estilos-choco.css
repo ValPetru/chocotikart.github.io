@@ -1,0 +1,409 @@
+body{
+	margin:0px;
+	font-family:monospace;
+	background-image:url("../img/CAFE.jpg");
+	background-image:no-repeat;
+	
+}
+
+
+nav{
+	overflow:hidden;
+	width:40%;
+    background-color:#e61405;
+	
+	padding-bottom:12px;
+	float:left;
+	position:relative;
+
+}
+
+.nav2{
+	overflow:hidden;
+	width:40%;
+    background-color:#e61405;
+	padding-bottom:12px;	
+	float:right;
+	position:relative;
+	
+
+}
+
+
+
+
+
+a:link,a:visited{
+	display:block;
+	width:30%;
+	float:left;
+	padding-top:7px;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	opacity:100;
+	border:2px;
+	font-size:20px;
+	text-shadow:2px 2px 3px black;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+		
+}
+
+
+a:hover{
+	color:#000000;	
+}
+
+
+
+#Logo{
+	
+	width:20%;
+	height:20%;
+	float:left;
+	z-index:190;
+	position:relative;
+	margin-bottom:3%;
+
+}
+
+
+/*Nuestros Productos*/
+footer{
+    background-color:#e61405;
+	width:100%;
+	overflow:hidden;
+	color:white;
+	z-index:190;
+	position: relative;
+}
+p{
+	margin-top:10px;
+	margin-right:5px;
+	margin-left:5px;
+	color:white;
+	opacity:100;
+	border:2px;
+	font-size:17px;
+	overflow:hidden;
+	text-align:center;
+	font-family:sans-serif;
+	
+
+}
+
+/*cONTACTOS*/
+#iconos{
+	float:left;
+	width:54%;
+	overflow:hidden;
+	margin-left:2%;
+	margin-bottom:2%;
+	background-color:;
+	
+}
+#iconos img{
+	width:70%;
+}
+.right{
+	margin-right:1%;
+	width:50%;
+}
+#texto{
+	float:right;
+	width:40%;
+	overflow:hidden;
+	margin-left:2%;
+	margin-right:2%;
+	margin-bottom:2%;
+	background-color:rgba(241, 162, 242,0.9);
+	border-radius:15px;
+}
+#texto p{
+	margin:auto;
+	width:90%;
+	padding-top:2%;
+	padding-right:3%;
+	padding-bottom:1%;
+	color:black;
+	font-size:40px;
+	font-family:sans-serif;
+	text-align:center;
+	
+}
+#creadores{
+	float:left;
+	width:54%;
+	overflow:hidden;
+	margin-left:2%;
+	margin-bottom:2%;
+	background-color:rgba(255,255,255,0.9);
+	border-radius:15px;
+}
+#creadores p{
+	color:black;
+	font-family:sans-serif;
+	font-size:20px;
+	
+}
+
+
+
+/*El Orgen de nuestro chocolate*/
+h1{
+	float:left;
+	color:white;
+	font-family:sans-serif;
+	margin-left:5%;
+	font-size:40px;
+	text-shadow:2px 2px 5px black;
+	width:90%;
+}
+
+img{
+	width:100%;
+}
+.origen/*section*/{
+	float:left;
+	width:60%;
+	overflow:hidden;
+	margin-top: 0px;
+	border-radius: 15px;
+	margin-bottom:2%;
+	margin-top:0%;
+	background-color:rgba(255,255,255,0);
+}
+
+#video{
+	float:left;
+	margin-left:5%;
+	height:500px;
+	width:90%;
+	float:left;
+	font-size:0px;
+	border-radius:15px;
+	box-shadow:3px 3px 3px black;
+	
+}
+
+
+iframe{
+	width:100%;
+	height:100%;
+	border-radius:15px;
+}
+
+#rosa{
+	background-color:rgba(104, 105, 107, 0.9);
+	float:right;
+	width:35%;
+	overflow:hidden;
+	border-radius:15px;
+	margin-top:8%;
+	margin-right:4%;
+	box-shadow:2px 2px 3px black;
+	margin-bottom:2%;
+}
+
+#rosa p,#ademas p{
+	margin:auto;
+	width:85%;
+	color:black;
+	font-size:20px;
+	font-family:sans-serif;
+	line-height:27px;
+	text-align:justify;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+ 
+ #rosa h3{
+	 color:black;
+	 font-family:sans-serif;
+	 text-align:center;
+	margin-top:2%;
+	margin-bottom:2%;
+	border-bottom:solid;
+	font-size:27px;
+	text-shadow:2px 2px 3px gray;
+ }
+ 
+ #ademas{
+	 margin:auto;
+	 width:90%;
+	 overflow:hidden;
+	 margin-bottom:2%;
+	 margin-top:2%;
+	 background-color:rgb(255,255,255,0.9);
+	 border-radius:15px;
+ }
+ 
+ #semillas{
+	 margin:auto;
+	 width:70%;
+	 overflow:hidden;
+	 margin-bottom:2%;
+ }
+ h4,h5{
+	margin:auto;
+	margin-top:2%;
+	margin-bottom:2%;
+	width:90%;
+	color:rgb(201, 20, 50);
+	font-family:sans-serif;
+	font-size:40px;
+	text-shadow:2px 2px 3px black;
+	text-align:center;
+ }
+ h5{
+	 float:left;
+	 margin-left:2%;
+	 font-size:27px;
+	 text-align:justify;
+	 color:black;
+	 text-shadow:0px 0px 0px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/*RECETAS*/
+ #recetasgeneral{
+	margin:auto;
+	width:80%;
+	overflow:hidden;
+	background-color:rgba(255,255,255,0.9);
+	margin-bottom:2%;
+	border-radius:15px;
+	
+}
+
+#title{
+	float:left;
+	width:60%;
+	overflow:hidden;
+	
+}
+
+#imgrec{
+	float:right;
+	width:40%;
+	overflow:hidden;
+	
+}
+
+#title a{
+	float:left;
+	width:100%;
+	border-bottom-width:100%;
+	margin-top:2%;
+	font-family:sans-serif;
+	font-size:50px;
+	color:rgb(201, 20, 50);
+	text-shadow:2px 2px 3px black;
+	border-bottom:solid;
+	
+	text-align:center;
+}
+
+#title a:hover{
+	color:#15025c;
+}
+
+#title p{
+	float:left;
+	clear:both;
+	margin-top:2%;
+	padding-right:3%;
+	margin-right:3%;
+	margin-left:3%;
+	margin-bottom:1%;
+	color:black;
+	font-size:20px;
+	font-family:sans-serif;
+	overflow:hidden;
+	text-align:justify;
+	
+}
+#title ul{
+	float:left;
+	clear:both;
+	margin-top:2%;
+	padding-right:3%;
+	margin-right:3%;
+	margin-left:3%;
+	margin-bottom:1%;
+	color:black;
+	font-size:20px;
+	font-family:sans-serif;
+	overflow:hidden;
+	text-align:justify;
+}
+img{
+	width:100%;
+}
+
+.bb:link,.bb:visited{
+	width:100%;
+	height:100%;
+	padding:0px;
+	font-size:0px;
+	font-family:none;
+}
+@media screen and (max-width:800px)
+{
+  body{
+            background-image:url("../img/CAFE.jpg");
+			
+	     }
+  
+  section, aside,.origen,#rosa,#ademas,#video,iframe,#iconos,#texto,#creadores,#recetasgeneral,#imgrec,#title{
+                           margin:auto;
+						   width:100%;
+						   border-radius:0px;
+	 	         }
+				 section{
+					 background-color:rgba(255, 255, 255,0.9);
+				 }
+  
+  /* a los parrafos les cambio el tamaño del texto */
+ p
+     {
+        font-size:20px;
+	 }
+
+  /*tmb a los h1 y h2*/
+  h2
+    {
+     font-size:27px;
+    }
+  
+
+  
+ /* hago el menú más chico y vertical*/  
+ a:link
+   {
+     
+	 font-size:20px;
+     width:33.3%;
+
+  }
+  .nav2, nav{
+	  width:100%;
+	  margin:auto;
+  }
+  #Logo{
+	  margin:auto;
+	  float:none;
+  }
+}
